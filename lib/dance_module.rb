@@ -15,13 +15,3 @@ module Dance
     "Thank you, thank you. It was a pleasure to dance for you all."
   end
 end
-
-class Dancer
-include FancyDance::InstanceMethods
-  extend FancyDance::ClassMethods
-end
-
-class Kid 
-    include FancyDance::InstanceMethods
-  extend FancyDance::ClassMethods
-end
